@@ -1,8 +1,6 @@
-import React, { useEffect, useContext } from 'react'
-import { IProduct } from '../model/Store';
-import { getProducts } from '../service/Product'
-import { GlobalStoreContext } from '../state/GlobalState'
-import ProductCard from './ProductCard'
+import React, { useEffect, useContext } from 'react';
+import { GlobalStoreContext } from '../state/GlobalState';
+import ProductCard from './ProductCard';
 
 function LeftSection() {
     const storeContext = useContext(GlobalStoreContext);

@@ -15,7 +15,7 @@ function ProductCard(props: IProduct) {
     }
 
     return (
-        <div className="w-full lg:w-1/4 h-72 m-2 p-2 lg:m-5 flex flex-col justify-between bg-white shadow-md rounded">
+        <div className="w-full lg:w-3/12 h-72 m-2 p-2 lg:m-5 flex flex-col justify-between bg-white shadow rounded">
             <div className="self-end -mb-2 mr-2 cursor-pointer" onClick={setfavourite}>
                 {
                     isFavourite ? <FaHeart style={{color: "#EF4444"}} /> : <FaRegHeart />
